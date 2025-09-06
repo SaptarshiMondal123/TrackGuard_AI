@@ -3,6 +3,7 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import Features from './components/Features';
 import VideoUpload from './components/VideoUpload';
+import Analytics from './components/Analytics';
 import Showcase from './components/Showcase';
 import Footer from './components/Footer';
 
@@ -13,6 +14,7 @@ function App() {
       <HeroSection />
       <Features />
       <VideoUpload />
+      <Analytics />
       <Showcase />
       <Footer />
     </div>
