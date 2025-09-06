@@ -6,12 +6,14 @@ import VideoUpload from './components/VideoUpload';
 import Analytics from './components/Analytics';
 import GPSMapping from './components/GPSMapping';
 import AlertManager from './components/AlertManager';
+import UserAuth from './components/UserAuth';
 import Showcase from './components/Showcase';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="min-h-screen bg-black text-white">
+      <UserAuth />
       <Header />
       <HeroSection />
       <Features />
